@@ -15,6 +15,7 @@ const UserDisplay = (props) => {
             })
         }
     }
+    console.log('props',props)
     return(
         <div className="container">
             <center>

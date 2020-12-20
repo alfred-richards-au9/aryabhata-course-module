@@ -7,7 +7,7 @@ class PlaceBooking extends Component{
     constructor(){
         super()
 
-        this.state={
+        this.state={  
             id:Math.floor(Math.random()*10000),
             hotelname: sessionStorage.getItem('hotelname'),
             name:'',
